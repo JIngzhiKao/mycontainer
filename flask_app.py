@@ -12,13 +12,6 @@ def hello_world():
 def Linkstart():
     return 'Link Start!'
 
-@app.route('/news')   #增加一个news页面
-def newspage():
-    newinformation="code 2120 assessment1！"
-    return render_template("news.html",data=newinformation)
 
-app.route('/product')  #增加一个product页面
-def productpage():    
-    return render_template("product.html")
 
 
