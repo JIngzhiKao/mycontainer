@@ -1,6 +1,5 @@
 from flask import Flask
 import rhino3dm as rhino
-from flask import flask, render_template
 
 app = Flask(__name__)
 
