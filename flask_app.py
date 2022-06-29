@@ -16,7 +16,7 @@ hops = hs.Hops(app)
     name="median",
     description="find the median in this set",
     inputs=[
-        hs.HopsNumber("set", "set", "the set to find with"),
+        hs.HopsNumber("set", "set", "the set to find with",hs.HopsParamAccess.LIST),
     ],
     outputs=[
         hs.HopsNumber("median", "m", "the median")
